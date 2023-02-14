@@ -13,7 +13,10 @@ namespace ArrayList_Challenge
             {
                 int number = i;
                 Numbers.Add(number);
-
+                if (Numbers[j] % 2 == 0)
+                {
+                    Console.WriteLine(Numbers[j]);
+                }
             }
         }
     }
